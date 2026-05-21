@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mindful Reset</title>
+  <meta name="description" content="A simple mindfulness and emotional regulation helper for families." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#app">Skip to content</a>
+
+  <header class="app-header">
+    <div class="brand" aria-label="Mindful Reset home">
+      <div class="brand-mark" aria-hidden="true">✦</div>
+      <div>
+        <h1>Mindful Reset</h1>
+        <p>A calm check-in for big feelings</p>
+      </div>
+    </div>
+    <button class="menu-button" id="menuButton" aria-label="Open menu">Menu</button>
+  </header>
+
+  <main id="app" class="app-shell" tabindex="-1"></main>
+
+  <nav class="bottom-nav" aria-label="Quick navigation">
+    <button data-nav="welcome">Home</button>
+    <button data-nav="feelings">Feelings</button>
+    <button data-nav="activities">Activities</button>
+    <button data-nav="stats">Stats</button>
+    <button data-nav="resources">Resources</button>
+  </nav>
+
+  <script src="app.js"></script>
+</body>
+</html>
