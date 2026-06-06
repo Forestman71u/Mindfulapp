@@ -1,44 +1,22 @@
-# Mindful Reset App
+# Mindful Reset App - Version 2
 
-A simple static mindfulness / emotional-regulation web app designed to be hosted for free on GitHub Pages.
+This static GitHub Pages app incorporates the initial feedback:
 
-## Files
+- Emotion-wheel style selector with broad categories and specific emotion words
+- Personal coping toolbox separate from resources
+- Behavior-chain reflection: what happened before, body cues, actions, needs, next time
+- Time-based coping strategy instructions for 1, 5, 10, and 30 minutes
+- Suggested strategy plus full strategy catalog
+- Client-led therapy notes section
+- Family repair mode for parent/child or family conflict
+- Warmer visual design
 
-- `index.html` - App shell
-- `styles.css` - App styling
-- `app.js` - App logic, flow, timer, localStorage, and dashboard
+## Deploy
 
-## How to run locally
+Upload `index.html`, `styles.css`, `app.js`, and `README.md` to the root of your GitHub repo.
 
-Open `index.html` in your browser.
+Then go to Settings → Pages → Deploy from a branch → main → /root.
 
-For a slightly better local setup, use VS Code with the Live Server extension.
+## Note
 
-## How to host free on GitHub Pages
-
-1. Create a new GitHub repository.
-2. Upload these files to the root of the repository:
-   - `index.html`
-   - `styles.css`
-   - `app.js`
-   - `README.md`
-3. Go to the repo settings.
-4. Select **Pages**.
-5. Under **Build and deployment**, choose:
-   - Source: `Deploy from a branch`
-   - Branch: `main`
-   - Folder: `/root`
-6. Save.
-7. GitHub will provide a public URL for the app.
-
-## Important note
-
-This is a mindfulness and coping-skills helper. It is not a therapy, medical, emergency, or crisis-response tool.
-
-## Future improvements
-
-- Add custom avatars
-- Add better chart visuals
-- Add guided activity scripts
-- Add private passcode protection
-- Convert to React/Vite later if the app grows
+This is a coping-skills and reflection helper, not therapy, medical care, crisis support, or emergency support.
